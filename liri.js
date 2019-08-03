@@ -8,11 +8,13 @@ var fs = require('fs');
 
 var liri = {
     'concert-this': function (artist) {
+        if(!artist) artist = "Madonna";
         axios.get('https://rest.bandsintown.com/artists/' + artist + '/events?app_id=codingbootcamp')
             .then(response => {
                 for (var i = 0; i < response.data.length; ++i) {
                     var data = response.data[i];
                     var venue = data.venue;
+                    console.log('Artist: '+artist);
                     console.log('Name of venue: ' + venue.name);
                     console.log('Location: ' + venue.city + ', ' + venue.region);
                     console.log('Date of event: ' + moment(data.datetime).format('MM/DD/YY'));
@@ -21,7 +23,7 @@ var liri = {
     },
 
     'spotify-this-song': function (song) {
-        if (!song) song = 'The Sign';
+        if (!song) song = 'The Sign Ace of Base';
         spotify.search({ type: 'track', query: song }, (err, data) => {
             if (err) return console.log('Error occurred: ' + err);
             var artistNames = new Set();
