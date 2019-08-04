@@ -25,8 +25,8 @@ Instructions
 2.	Go to the folder that contains the liri.js file.
 3.	Type commands:
 __________________________________________________________________________________________
-node liri.js concert-this “type name of artist or band in quotes”
-Example: node liri.js concert-this “Lady Gaga”
+  node liri.js concert-this “type name of artist or band in quotes”
+  Example: node liri.js concert-this “Lady Gaga”
 _________________________________________________________________________________
 
 ![image](/pictures/concert-this-example.png)
@@ -36,8 +36,8 @@ Default output:
  
 _____________________________________________________________________________________
 
-node liri.js spotify-this-song <type name of song in quotes>
-Example: node liri.js spotify-this-song “Black dog”
+  node liri.js spotify-this-song <type name of song in quotes>
+  Example: node liri.js spotify-this-song “Black dog”
 _____________________________________________________________________________________
 ![image](/pictures/spotify-song-example.png)
 
@@ -46,8 +46,8 @@ Default output:
 ![image](/pictures/spotify-song-default.png)
  _____________________________________________________________________________________	
 
-node liri.js movie-this <type name of movie in quotes>
-Example: node liri.js movie-this “Gone with the wind”
+  node liri.js movie-this <type name of movie in quotes>
+  Example: node liri.js movie-this “Gone with the wind”
 _____________________________________________________________________________________
 ![image](/pictures/movie-this-example.png)
  
@@ -56,6 +56,6 @@ Default output:
  
 _____________________________________________________________________________________
 
-node liri.js do-what-it-says
+  node liri.js do-what-it-says
 _____________________________________________________________________________________
  ![image](/pictures/what-says-example.png)
