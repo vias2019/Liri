@@ -25,8 +25,8 @@ Instructions
 2.	Go to the folder that contains the liri.js file.
 3.	Type commands:
 __________________________________________________________________________________________
-    node liri.js concert-this “type name of artist or band in quotes”
-    Example: node liri.js concert-this “Lady Gaga”
+node liri.js concert-this “type name of artist or band in quotes”
+Example: node liri.js concert-this “Lady Gaga”
 _________________________________________________________________________________
 
 ![image](/pictures/concert-this-example.png)
