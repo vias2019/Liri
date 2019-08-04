@@ -1,6 +1,6 @@
 # Liri
 ________________________________________
-ABOUT THE APP
+<b>ABOUT THE APP</b>
 LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives back data. The user has the option of using four commands (listed below):
 
 •	concert-this
@@ -8,7 +8,7 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI is a command l
 •	movie-this
 •	do-what-it-says
 
-Resources used in this project:
+<b>Resources used in this project:</b>
 1.	Javascript
 2.	Nodejs
 3.	Node packages:
@@ -20,7 +20,7 @@ d.	DotEnv
 a.	Bands in Town
 b.	OMDB
 
-Instructions
+<b>Instructions</b>
 1.	Open your terminal (Mac) or Git Bash (PC).
 2.	Go to the folder that contains the liri.js file.
 3.	Type commands:
